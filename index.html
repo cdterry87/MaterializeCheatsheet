@@ -334,10 +334,10 @@
             </div>
         </div>
 
-        <h2>Collapsible</h2>
-
         <div class="row">
             <div class="col s12 m6">
+                <h2>Collapsible</h2>
+
                 <ul class="collapsible">
                     <li>
                         <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
@@ -352,6 +352,42 @@
                         <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                 </ul>
+            </div>
+            <div class="col s12 m6">
+                <h2>Chips</h2>
+                <div class="chip">
+                    <img src="images/sample.jpg" alt="Contact Person"> Chip
+                </div>
+                <div class="chip">
+                    Default Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip red white-text">
+                    Red Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip blue white-text">
+                    Blue Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip yellow black-text">
+                    Yellow Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip pink white-text">
+                    Pink Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip purple white-text">
+                    Purple Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip green white-text">
+                    Green Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip indigo white-text">
+                    Indigo Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip orange white-text">
+                    Orange Tag <i class="close material-icons">close</i>
+                </div>
+                <div class="chip grey white-text">
+                    Grey Tag <i class="close material-icons">close</i>
+                </div>
             </div>
         </div>
 
@@ -397,10 +433,10 @@
             </div>
         </div>
 
-        <h2>Modals</h2>
-
         <div class="row">
-            <div class="col s12 m6">
+            <div class="col s12 m4">
+                <h2>Modals</h2>
+
                 <!-- Modal Trigger -->
                 <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
@@ -415,9 +451,277 @@
                     </div>
                 </div>
             </div>
+            <div class="col s12 m8">
+                <h2>Tabs</h2>
+                <div class="row">
+                    <div class="col s12">
+                        <ul class="tabs">
+                            <li class="tab col s3"><a href="#test1">Test 1</a></li>
+                            <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+                            <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
+                            <li class="tab col s3"><a href="#test4">Test 4</a></li>
+                        </ul>
+                    </div>
+                    <div id="test1" class="col s12">Test 1</div>
+                    <div id="test2" class="col s12">Test 2</div>
+                    <div id="test3" class="col s12">Test 3</div>
+                    <div id="test4" class="col s12">Test 4</div>
+                </div>
+            </div>
         </div>
-    </div>
 
+        <div class="row">
+            <div class="col s12 m6">
+                <h2>Toast</h2>
+                <a onclick="M.toast({html: 'I am a toast'})" class="btn">Toast!</a>
+            </div>
+            <div class="col s12 m6">
+                <h2>Tooltips</h2>
+                <a class="btn tooltipped" data-position="left" data-tooltip="I am a tooltip">Hover!</a>
+                <a class="btn tooltipped" data-position="top" data-tooltip="I am a tooltip">Hover!</a>
+                <a class="btn tooltipped" data-position="bottom" data-tooltip="I am a tooltip">Hover!</a>
+                <a class="btn tooltipped" data-position="right" data-tooltip="I am a tooltip">Hover!</a>
+            </div>
+        </div>
+
+        <h2>Forms</h2>
+
+        <div class="row">
+            <div class="col s12 m4">
+                <h5>Autocomplete</h5>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">textsms</i>
+                                <input type="text" id="autocomplete-input" class="autocomplete">
+                                <label for="autocomplete-input">Autocomplete</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <h5>Datepicker</h5>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">date_range</i>
+                    <input type="text" class="datepicker" placeholder="Datepicker...">
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <h5>Timepicker</h5>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">watch_later</i>
+                    <input type="text" class="timepicker" placeholder="Timepicker...">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+                <h5>Checkboxes</h5>
+                <form action="#">
+                    <p>
+                        <label>
+                            <input type="checkbox" />
+                            <span>Red</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" checked="checked" />
+                            <span>Yellow</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" class="filled-in" checked="checked" />
+                            <span>Filled in</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="indeterminate-checkbox" type="checkbox" />
+                            <span>Indeterminate Style</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" checked="checked" disabled="disabled" />
+                            <span>Green</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox" disabled="disabled" />
+                            <span>Brown</span>
+                        </label>
+                    </p>
+                </form>
+            </div>
+            <div class="col s12 m4">
+                <h5>Radio Buttons</h5>
+                <form action="#">
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" checked />
+                            <span>Red</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" />
+                            <span>Yellow</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input class="with-gap" name="group1" type="radio" />
+                            <span>Green</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" disabled="disabled" />
+                            <span>Brown</span>
+                        </label>
+                    </p>
+                </form>
+
+            </div>
+            <div class="col s12 m4">
+                <h5>Switches</h5>
+                <!-- Switch -->
+                <div class="switch">
+                    <label>
+                        Off
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        On
+                    </label>
+                </div>
+
+                <!-- Disabled Switch -->
+                <div class="switch">
+                    <label>
+                        Off
+                        <input disabled type="checkbox">
+                        <span class="lever"></span>
+                        On
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <form class="col s12 m8">
+                <h5>Input Fields</h5>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                        <label for="disabled">Disabled</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        This is an inline input field:
+                        <div class="input-field inline">
+                            <input id="email_inline" type="email" class="validate">
+                            <label for="email_inline">Email</label>
+                            <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="col s12 m4">
+                <h5>Select Fields</h5>
+
+                <div class="input-field col s12">
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                    <label>Materialize Select</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select multiple>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                    <label>Materialize Multiple Select</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select>
+                        <optgroup label="team 1">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                        </optgroup>
+                        <optgroup label="team 2">
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </optgroup>
+                    </select>
+                    <label>Optgroups</label>
+                </div>
+
+                <div class="input-field col s12 m6">
+                    <select class="icons">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" data-icon="images/sample-1.jpg">example 1</option>
+                        <option value="" data-icon="images/office.jpg">example 2</option>
+                        <option value="" data-icon="images/yuna.jpg">example 3</option>
+                    </select>
+                    <label>Images in select</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <select class="icons">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" data-icon="images/sample-1.jpg" class="left">example 1</option>
+                        <option value="" data-icon="images/office.jpg" class="left">example 2</option>
+                        <option value="" data-icon="images/yuna.jpg" class="left">example 3</option>
+                    </select>
+                    <label>Images in select</label>
+                </div>
+
+                <label>Browser Select</label>
+                <select class="browser-default">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
 
     <footer class="page-footer">
         <div class="container">
@@ -445,8 +749,6 @@
             </div>
         </div>
     </footer>
-
-
 </body>
 <script src="./jquery.min.js"></script>
 <script src="./materialize.min.js"></script>
@@ -457,6 +759,19 @@
         $('.slider').slider();
         $('.materialboxed').materialbox();
         $('.modal').modal();
+        $('.tabs').tabs();
+        $('.tooltipped').tooltip();
+        $('.datepicker').datepicker();
+        $('.timepicker').timepicker();
+        $('select').formSelect();
+
+        $('input.autocomplete').autocomplete({
+            data: {
+                "Apple": null,
+                "Microsoft": null,
+                "Google": 'https://placehold.it/250x250'
+            },
+        });
     });
 </script>
 
