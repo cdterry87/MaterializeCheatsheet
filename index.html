@@ -44,6 +44,14 @@
                 <!-- Dropdown Trigger -->
                 <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sidenav Item</a></li>
+                <li><a href="#">Sidenav Item</a></li>
+            </ul>
+
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
     </nav>
 
@@ -764,6 +772,7 @@
         $('.datepicker').datepicker();
         $('.timepicker').timepicker();
         $('select').formSelect();
+        $('.sidenav').sidenav();
 
         $('input.autocomplete').autocomplete({
             data: {
